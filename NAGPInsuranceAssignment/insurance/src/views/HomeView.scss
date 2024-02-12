@@ -1,0 +1,98 @@
+// Variables
+$border-width: 7px;
+$primary-color: #2015FF;
+$text-color: #fff;
+
+// SCSS for .container
+.details-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 90% !important;
+  margin: auto !important;
+
+  h1,
+  .description {
+    max-width: 90%;
+  }
+
+  .description {
+    &__tools-list {
+      margin-top: 20px;
+    }
+  }
+}
+
+// SCSS for .h-100vh
+.h-100vh {
+  height: 80vh;
+}
+
+// SCSS for .ak-flex
+.ak-flex {
+  display: flex;
+  align-items: center;
+
+  > article {
+    width: 50%;
+  }
+}
+
+// SCSS for .ak-banner-image
+.ak-banner-image {
+  padding: 0px 0px;
+  margin-top: 100px!important;
+
+  > img {
+    width: 100%;
+    transform: translate(0px, 0px);
+  }
+}
+
+// SCSS for .text-content
+.text-content {
+  > h1 {
+    font-weight: 700;
+    font-size: 4.5em;
+  }
+}
+
+// SCSS for .ak-btn-lg-insurance
+.ak-btn-lg-insurance {
+  padding: 16px 32px;
+  background-color: $primary-color;
+  color: $text-color;
+  border-radius: $border-width;
+  border-style: solid;
+  position: relative;
+  display: inline-block;
+
+  > a {
+    color: $text-color;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+// SCSS for .cus-flex
+.cus-flex {
+  margin-top: 30px;
+  display: flex;
+
+  > article {
+    padding-right: 30px;
+
+    > h1 {
+      font-weight: 700;
+      font-size: 3.2em;
+    }
+  }
+}
+
+// SCSS for body
+body {
+  background: #f5f5f5!important;
+}

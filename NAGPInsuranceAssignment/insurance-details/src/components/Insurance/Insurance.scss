@@ -1,0 +1,53 @@
+// Variables
+$table-border-color: #ddd;
+$table-even-row-color: #f2f2f2;
+
+// SCSS for .insuranceData
+.insuranceData {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 82px;
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+.insurance-data {
+    display: flex;
+    width: 100%;
+    gap: 82px;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+// SCSS for .insuranceActions
+.insurance-actions {
+    margin: 0 auto !important;
+    margin-top: -80px !important;
+}
+
+.insuranceActions {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+// SCSS for .insuranceTable
+.insuranceTable {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 10px;
+    border: 1px solid $table-border-color;
+    
+    &:first-child {
+      font-weight: bold;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: $table-even-row-color;
+  }
+}
