@@ -1,0 +1,4 @@
+packages:
+  - "insurance"
+  - "insurance-payments"
+  - "insurance-details"
